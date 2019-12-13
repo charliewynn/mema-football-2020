@@ -21,7 +21,7 @@ const database = firebase.database();
 database
   .ref("launches")
   .push()
-  .set({ time: new Date().getTime() })
+  .set(new Date().toLocaleString())
   .then(
     snapshot => {
       console.log("SS", snapshot);
