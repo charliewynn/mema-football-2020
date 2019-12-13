@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f20260874c861cf26931802024c43b2",
+    "revision": "ca2ce997782b81bb20877e4364eb891f",
     "url": "/mema-football-2020/index.html"
   },
   {
