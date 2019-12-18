@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import * as firebase from "firebase/app";
 import "firebase/auth";
 import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
+import "firebase/";
 
 type LoginProps = {
   title: string;
@@ -18,12 +19,9 @@ export default ({ title, paragraph }: LoginProps) => {
     setSignedIn(!!user);
   });
   const uiConfig = {
-    // Popup signin flow rather than redirect flow.
     signInFlow: "popup",
-    // Redirect to /signedIn after sign in is successful. Alternatively you can provide a callbacks.signInSuccess function.
-    //signInSuccessUrl: "/signedIn",
-    // We will display Google and Facebook as auth providers.
-    signInOptions: [firebase.auth.EmailAuthProvider.PROVIDER_ID]
+    signInOptions: [firebase.auth.EmailAuthProvider.PROVIDER_ID],
+    credentialHelper: "none"
   };
   return (
     <div id="firebase_auth">
