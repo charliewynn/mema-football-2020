@@ -3,6 +3,7 @@ import "./App.css";
 import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 import Foo from "./Components/FooComponent";
 import Home from "./Components/HomeComponent";
+import Login from "./Components/Login";
 
 const App: React.FC = () => {
   return (
@@ -23,6 +24,7 @@ const App: React.FC = () => {
             title="test2"
           />
           <Route exact path="/foo" component={Foo} />
+          <Route exact path="/login" component={Login} />
           <Route
             render={() => (
               <div>
