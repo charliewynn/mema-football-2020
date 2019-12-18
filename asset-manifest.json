@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/mema-football-2020/static/css/main.02b5f878.chunk.css",
-    "main.js": "/mema-football-2020/static/js/main.23248c6b.chunk.js",
-    "main.js.map": "/mema-football-2020/static/js/main.23248c6b.chunk.js.map",
+    "main.js": "/mema-football-2020/static/js/main.e6197ea2.chunk.js",
+    "main.js.map": "/mema-football-2020/static/js/main.e6197ea2.chunk.js.map",
     "runtime-main.js": "/mema-football-2020/static/js/runtime-main.623fd219.js",
     "runtime-main.js.map": "/mema-football-2020/static/js/runtime-main.623fd219.js.map",
-    "static/js/2.7d93080a.chunk.js": "/mema-football-2020/static/js/2.7d93080a.chunk.js",
-    "static/js/2.7d93080a.chunk.js.map": "/mema-football-2020/static/js/2.7d93080a.chunk.js.map",
+    "static/js/2.c9d2d914.chunk.js": "/mema-football-2020/static/js/2.c9d2d914.chunk.js",
+    "static/js/2.c9d2d914.chunk.js.map": "/mema-football-2020/static/js/2.c9d2d914.chunk.js.map",
     "index.html": "/mema-football-2020/index.html",
-    "precache-manifest.6a330b4a167b5170e621f68b8277ab6d.js": "/mema-football-2020/precache-manifest.6a330b4a167b5170e621f68b8277ab6d.js",
+    "precache-manifest.2b86e1cdee31fbafeea55c1370e721ee.js": "/mema-football-2020/precache-manifest.2b86e1cdee31fbafeea55c1370e721ee.js",
     "service-worker.js": "/mema-football-2020/service-worker.js",
     "static/css/main.02b5f878.chunk.css.map": "/mema-football-2020/static/css/main.02b5f878.chunk.css.map",
-    "static/js/2.7d93080a.chunk.js.LICENSE": "/mema-football-2020/static/js/2.7d93080a.chunk.js.LICENSE"
+    "static/js/2.c9d2d914.chunk.js.LICENSE": "/mema-football-2020/static/js/2.c9d2d914.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.623fd219.js",
-    "static/js/2.7d93080a.chunk.js",
+    "static/js/2.c9d2d914.chunk.js",
     "static/css/main.02b5f878.chunk.css",
-    "static/js/main.23248c6b.chunk.js"
+    "static/js/main.e6197ea2.chunk.js"
   ]
 }
