@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import * as firebase from "firebase/app";
 import "firebase/auth";
 import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
-import "firebase/";
 
 type LoginProps = {
   title: string;
