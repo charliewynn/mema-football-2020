@@ -2,6 +2,7 @@ import React from "react";
 
 import * as firebase from "firebase/app";
 import "firebase/database";
+import "firebase/auth";
 type FooProps = {
   title: string;
   paragraph: string;
@@ -9,10 +10,11 @@ type FooProps = {
 
 export default ({ title, paragraph }: FooProps) => {
   const database = firebase.database();
+  const user = firebase.auth().currentUser;
   database
-    .ref("auth_launches_foo")
+    .ref("auth_launches_foo/" + user?.uid)
     .push()
-    .set(new Date().toLocaleString())
+    .set(user?.displayName + " " + new Date().toLocaleString())
     .then(
       snapshot => {
         console.log("SS", snapshot);
